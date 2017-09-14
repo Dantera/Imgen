@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "items": {
+    "id": "/items",
+    "properties": {
+      "color": {
+        "id": "/items/properties/color",
+        "properties": {
+          "alpha": {
+            "default": 255,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/color/properties/alpha",
+            "title": "The alpha schema",
+            "type": "integer"
+          },
+          "blue": {
+            "default": 0,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/color/properties/blue",
+            "title": "The blue schema",
+            "type": "integer"
+          },
+          "green": {
+            "default": 0,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/color/properties/green",
+            "title": "The green schema",
+            "type": "integer"
+          },
+          "red": {
+            "default": 255,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/color/properties/red",
+            "title": "The red schema",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "dimensions": {
+        "id": "/items/properties/dimensions",
+        "properties": {
+          "height": {
+            "default": 150,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/dimensions/properties/height",
+            "title": "The height schema",
+            "type": "integer"
+          },
+          "width": {
+            "default": 90,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/dimensions/properties/width",
+            "title": "The width schema",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "extension": {
+        "default": ".png",
+        "description": "An explanation about the purpose of this instance.",
+        "id": "/items/properties/extension",
+        "title": "The extension schema",
+        "type": "string"
+      },
+      "filename": {
+        "default": "alpha_0",
+        "description": "An explanation about the purpose of this instance.",
+        "id": "/items/properties/filename",
+        "title": "The filename schema",
+        "type": "string"
+      },
+      "layout": {
+        "default": "portrait",
+        "description": "An explanation about the purpose of this instance.",
+        "id": "/items/properties/layout",
+        "title": "The layout schema",
+        "type": "string"
+      },
+      "mode": {
+        "default": "RGBA",
+        "description": "An explanation about the purpose of this instance.",
+        "id": "/items/properties/mode",
+        "title": "The mode schema",
+        "type": "string"
+      },
+      "text": {
+        "id": "/items/properties/text",
+        "properties": {
+          "color": {
+            "id": "/items/properties/text/properties/color",
+            "properties": {
+              "alpha": {
+                "default": 255,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/color/properties/alpha",
+                "title": "The alpha schema",
+                "type": "integer"
+              },
+              "blue": {
+                "default": 255,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/color/properties/blue",
+                "title": "The blue schema",
+                "type": "integer"
+              },
+              "green": {
+                "default": 255,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/color/properties/green",
+                "title": "The green schema",
+                "type": "integer"
+              },
+              "red": {
+                "default": 255,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/color/properties/red",
+                "title": "The red schema",
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "content": {
+            "default": "alpha",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/text/properties/content",
+            "title": "The content schema",
+            "type": "string"
+          },
+          "coordinates": {
+            "id": "/items/properties/text/properties/coordinates",
+            "properties": {
+              "x": {
+                "default": 0,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/coordinates/properties/x",
+                "title": "The x schema",
+                "type": "integer"
+              },
+              "y": {
+                "default": 0,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/text/properties/coordinates/properties/y",
+                "title": "The y schema",
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "font": {
+            "default": "Roboto-Regular.ttf",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/text/properties/font",
+            "title": "The font schema",
+            "type": "string"
+          },
+          "size": {
+            "default": 20,
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/text/properties/size",
+            "title": "The size schema",
+            "type": "integer"
+          }
+        },
+        "type": "object",
+
+      },
+      "thumbnail": {
+        "id": "/items/properties/thumbnail",
+        "properties": {
+          "dimensions": {
+            "id": "/items/properties/thumbnail/properties/dimensions",
+            "properties": {
+              "height": {
+                "default": 150,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/thumbnail/properties/dimensions/properties/height",
+                "title": "The height schema",
+                "type": "integer"
+              },
+              "width": {
+                "default": 90,
+                "description": "An explanation about the purpose of this instance.",
+                "id": "/items/properties/thumbnail/properties/dimensions/properties/width",
+                "title": "The width schema",
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "extension": {
+            "default": ".png",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/thumbnail/properties/extension",
+            "title": "The extension schema",
+            "type": "string"
+          },
+          "filename": {
+            "default": "alpha_0_thumbnail",
+            "description": "An explanation about the purpose of this instance.",
+            "id": "/items/properties/thumbnail/properties/filename",
+            "title": "The filename schema",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}

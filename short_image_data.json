@@ -1,0 +1,42 @@
+[
+    {
+        "color": {
+            "alpha": 255,
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "randomart": true
+        },
+        "dimensions": {
+            "height": 150,
+            "width": 90
+        },
+        "extension": ".png",
+        "filename": "alpha_0",
+        "layout": "portrait",
+        "mode": "RGBA",
+        "text": {
+            "color": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+            },
+            "content": "alpha",
+            "coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "font": "Roboto-Regular.ttf",
+            "size": 20
+        },
+        "thumbnail": {
+            "dimensions": {
+                "height": 150,
+                "width": 90
+            },
+            "extension": ".png",
+            "filename": "alpha_0_thumbnail"
+        }
+    }
+]
